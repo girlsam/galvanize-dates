@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="datesApp">
+  <head>
+    <meta charset="utf-8">
+    <title>gDates</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body ng-cloak>
+    <!-- nav -->
+    <div class="container">
+      <h1>g-Dates</h1>
+      <div ng-controller="mainController as mainCtrl">
+        <p>{{ mainCtrl.greeting }}</p>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <!-- main component -->
+    <script type="text/javascript" src="js/components/main/main.controller.js"></script>
+  </body>
+</html>
