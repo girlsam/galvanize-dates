@@ -1,0 +1,21 @@
+/*=====================
+Variables
+=====================*/
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Chivo');
+
+$logo-font: 'Covered By Your Grace', cursive;
+$body-font: 'Chivo', Arial, sans-serif;
+$header-font-color: #1a237e;
+$content-font-color: #212121;
+
+
+/*=====================
+Nav Styling
+=====================*/
+.nav-header {
+  font-family: $logo-font;
+  margin-left: 15px;
+  li {
+    font-family: $body-font;
+  }
+}

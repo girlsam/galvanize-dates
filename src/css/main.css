@@ -1,1 +1,14 @@
-/* add custom styles */
+/*=====================
+Variables
+=====================*/
+@import url("https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Chivo");
+/*=====================
+Nav Styling
+=====================*/
+.nav-header {
+  font-family: "Covered By Your Grace", cursive;
+  margin-left: 15px; }
+  .nav-header li {
+    font-family: "Chivo", Arial, sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

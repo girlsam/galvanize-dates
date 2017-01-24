@@ -3,19 +3,14 @@
   'use strict';
 
   angular
-    .module('datesApp.config', ['ui.router'])
+    .module('datesApp.config', [])
     .config(appConfig)
     .run(function($templateCache) {
       $templateCache.removeAll();
     });
 
-  function appConfig($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/')
-    $stateProvider
-    .state('/', {
-      url: '/',
-      template: 'js/components/main/main.view.html'
-    });
+  function appConfig() {
+    console.log('sanity');
   }
 
 })();

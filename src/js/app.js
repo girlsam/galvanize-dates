@@ -7,8 +7,9 @@
   angular
     .module('datesApp', [
       'datesApp.config',
+      'ngRoute',
       'datesApp.components.main',
-      'ui.router'
+      'datesApp.components.member'
     ]);
 
 })();
